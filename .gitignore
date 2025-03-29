@@ -6,3 +6,6 @@ Traven-Itinerary-Project/
 
 # Ignore .env
 .env
+
+# Ignore .devcontainer
+.devcontainer
