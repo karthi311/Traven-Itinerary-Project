@@ -3,7 +3,7 @@
 
 # AI-Powered Travel Planner 🏝️✈️
 
-An AI-driven travel itinerary generator that creates customized travel plans based on user preferences, budget, and duration. This app uses **Streamlit**, **Ollama (LLaMA 3.2:1B)**, and **Wikipedia API** to provide detailed travel recommendations.
+An AI-driven travel itinerary generator that creates customized travel plans based on user preferences, budget, and duration. This app uses **Streamlit**, **Grow (llama-3.3-70b-versatile)**, and **Wikipedia API** to provide detailed travel recommendations.
 
 ## 🚀 Features
 - Generates multi-day travel itineraries based on user input.
@@ -15,14 +15,14 @@ An AI-driven travel itinerary generator that creates customized travel plans bas
 ## 🛠️ Technologies & Libraries Used
 - **Python**: Core programming language
 - **Streamlit**: Web-based UI framework
-- **Ollama**: LLaMA 3.2:1B model for itinerary generation
+- **GroqAPIKEY**: llama-3.3-70b-versatile model for itinerary generation
 - **Requests**: API calls to fetch travel information
 - **Wikipedia API**: Fetches destination details
 
 ## 🎯 How It Works
 1. User enters **starting location, destination, budget, trip duration, purpose, and preferences**.
 2. The app **fetches information** from Wikipedia about the destination.
-3. A **detailed itinerary** is generated using **Ollama (LLaMA 3.2:1B)**.
+3. A **detailed itinerary** is generated using **Groq(llama-3.3-70b-versatile)**.
 4. The AI-generated travel plan is displayed in the **Streamlit UI**.
 
 ## 📌 Installation Guide
@@ -40,20 +40,12 @@ Make sure you have Python 3.8+ installed. Then, run:
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Install & Run Ollama
-
-Download and install Ollama from Ollama’s website. Then, pull the LLaMA 3.2:1B model:
-
-```sh
-ollama pull llama3.2:1b
-```
-
 ### 4️⃣ Run the Streamlit App
 
 Start the app using:
 
 ```sh
-streamlit run main.py
+streamlit run app.py
 ```
 
 ## 📜 License

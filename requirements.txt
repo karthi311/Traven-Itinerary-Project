@@ -1,3 +1,4 @@
 streamlit
 requests
-ollama
+langchain
+langchain-groq==0.1.3
